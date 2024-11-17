@@ -1,0 +1,10 @@
+server.port: 30303
+resilience4j.timelimiter:
+    instances:
+        ratingService:
+            timeoutDuration: 3s
+            cancelRunningFuture: true
+
+rating:
+    service:
+        endpoint: http://localhost:51515/ratings/

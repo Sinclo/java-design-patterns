@@ -1,0 +1,23 @@
+@startuml
+package com.iluwatar.timeout.configuration {
+    class AsyncConfig
+}
+
+package com.iluwatar.timeout.controller {
+    class ProductController
+    class RatingController
+}
+
+package com.iluwatar.timeout.model {
+    class Product
+    class ProductDto
+    class ProductRatingDto
+    class ReviewDto
+}
+
+package com.iluwatar.timeout.service {
+    class ProductService
+    class RatingService
+    class RatingServiceClient
+}
+@enduml
